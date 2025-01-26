@@ -1,4 +1,7 @@
-document.querySelector("form").addEventListener("submit", function(event) {
+function showComingSoonMessage() {
+    alert('Coming soon!');
+}
+function comingSoon(event) {
     event.preventDefault();
-    alert("Thank you for subscribing!");
-});
+    alert('Coming soon!');
+}
